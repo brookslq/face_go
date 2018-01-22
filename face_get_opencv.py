@@ -14,7 +14,7 @@ def catch_face_from_camera(window_name, camera_idx, catch_pic_num, path_name):
     cap = cv2.VideoCapture(camera_idx)
 
     # 初始化人脸识别分类器
-    classfier = cv2.CascadeClassifier("face_opencv_modle/haarcascade_frontalface_alt2.xml")
+    classfier = cv2.CascadeClassifier("face_opencv_model/haarcascade_frontalface_alt2.xml")
     color = (255, 0, 0)
     num = 0
 

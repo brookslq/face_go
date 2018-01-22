@@ -81,6 +81,7 @@ def img_from_video():
         ret, frame = capture.read()
 
         if frame is None:
+            
             break
         else:
 

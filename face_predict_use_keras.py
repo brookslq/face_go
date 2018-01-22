@@ -29,7 +29,7 @@ if __name__ == '__main__':
     cap = cv2.VideoCapture(0)
 
     # 人脸识别分类器本地存储路径
-    cascade_path = "face_opencv_modle/haarcascade_frontalface_alt2.xml"
+    cascade_path = "face_opencv_model/haarcascade_frontalface_alt2.xml"
 
     # 使用dlib进行人脸检测
     detector = dlib.get_frontal_face_detector()
